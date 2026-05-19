@@ -19,9 +19,9 @@ El script principal es [`install-waha.sh`](./install-waha.sh) y permite instalar
 
 ## 🖼️ Vista previa
 
-### Interfaz del instalador
+### Interfaz de WAHA
 
-![Interfaz del instalador WAHA](./waha%20interface.webp)
+![Interfaz de WAHA](./waha%20interface.webp)
 
 ### Pasos de instalación
 
