@@ -44,7 +44,19 @@ El script principal es [`install-waha.sh`](./install-waha.sh) y permite instalar
 
 ## ⚡ Uso rápido
 
+Descarga y ejecuta con Git:
+
 ```bash
+git clone https://github.com/dotcom350/waha-docker-installer.git
+cd waha-docker-installer
+sudo bash install-waha.sh
+```
+
+Instalación remota todo en uno desde el archivo directo:
+
+```bash
+curl -L https://raw.githubusercontent.com/dotcom350/waha-docker-installer/refs/heads/main/install-waha.sh -o install-waha.sh
+chmod +x install-waha.sh
 sudo bash install-waha.sh
 ```
 
@@ -73,7 +85,7 @@ Durante la instalación, el asistente realiza estos pasos:
 1. 📁 Pide el directorio de instalación, por defecto `~/waha`.
 2. 🐳 Verifica Docker y Docker Compose; si faltan, los instala.
 3. 📦 Permite elegir la edición:
-   - `WAHA Core`: gratis, recomendado y parcheado localmente.
+   - `WAHA Core`: gratis, recomendado y parcheado localmente. La primera opción de instalación permite que se corran varias sesiones de forma gratuita.
    - `WAHA Plus`: requiere API key de devlikeapro.
    - `WAHA ARM`: para servidores ARM como Raspberry Pi o Apple Silicon.
 4. 🌐 Pide puerto de acceso, por defecto `3000`.
